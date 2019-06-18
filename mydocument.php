@@ -218,8 +218,15 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/chart.min.js"></script>
+<script src="assets/js/bs-animation.js"></script>
+<script src="assets/js/bs-charts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 <script src="assets/js/jquery-3.3.1.js"></script>
 <script src="assets/js/jquery.dataTables.min.js"></script>
 <script src="assets/js/dataTables.bootstrap4.min.js"></script>
-
-
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable();
+    } );
+</script>
